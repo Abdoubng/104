@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/media/benghaa/data/protocols/
 Determining if the C compiler works passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec890671078/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec890671078.dir/build.make CMakeFiles/cmTryCompileExec890671078.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec836864571/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec836864571.dir/build.make CMakeFiles/cmTryCompileExec836864571.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec890671078.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec890671078.dir/testCCompiler.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec890671078
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec890671078.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec890671078.dir/testCCompiler.c.o  -o cmTryCompileExec890671078 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec836864571.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec836864571.dir/testCCompiler.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec836864571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec836864571.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec836864571.dir/testCCompiler.c.o  -o cmTryCompileExec836864571 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4036070694/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4036070694.dir/build.make CMakeFiles/cmTryCompileExec4036070694.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2987758056/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2987758056.dir/build.make CMakeFiles/cmTryCompileExec2987758056.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec4036070694
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4036070694.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4036070694 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2987758056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2987758056.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2987758056 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4036070694' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQBapsi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4036070694 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2987758056' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSpw2iy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2987758056 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4036070694/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4036070694.dir/build.make CMakeFiles/cmTryCompileExec4036070694.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2987758056/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2987758056.dir/build.make CMakeFiles/cmTryCompileExec2987758056.dir/build]
   ignore line: [make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec4036070694]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4036070694.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4036070694 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2987758056]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2987758056.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2987758056 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
@@ -88,13 +88,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4036070694' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQBapsi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4036070694 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2987758056' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSpw2iy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2987758056 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccQBapsi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccSpw2iy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec4036070694] ==> ignore
+    arg [cmTryCompileExec2987758056] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec4036070694.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2987758056.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -154,30 +154,30 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2705743606/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2705743606.dir/build.make CMakeFiles/cmTryCompileExec2705743606.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec187648200/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec187648200.dir/build.make CMakeFiles/cmTryCompileExec187648200.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2705743606.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2705743606.dir/testCXXCompiler.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec2705743606
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2705743606.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2705743606.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2705743606 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec187648200.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec187648200.dir/testCXXCompiler.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec187648200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec187648200.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec187648200.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec187648200 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3429999191/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3429999191.dir/build.make CMakeFiles/cmTryCompileExec3429999191.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3207815714/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3207815714.dir/build.make CMakeFiles/cmTryCompileExec3207815714.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3429999191
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3429999191.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3429999191 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3207815714
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3207815714.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3207815714 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
@@ -187,8 +187,8 @@ Thread model: posix
 gcc version 4.9.2 (Debian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3429999191' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cceQ7Grr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3429999191 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3207815714' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZa5nyH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3207815714 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
@@ -196,15 +196,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3429999191/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3429999191.dir/build.make CMakeFiles/cmTryCompileExec3429999191.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3207815714/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3207815714.dir/build.make CMakeFiles/cmTryCompileExec3207815714.dir/build]
   ignore line: [make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec3429999191]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3429999191.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3429999191 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3207815714]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3207815714.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3207815714 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
@@ -214,13 +214,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3429999191' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cceQ7Grr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3429999191 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3207815714' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZa5nyH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3207815714 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cceQ7Grr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZa5nyH.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -236,7 +236,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3429999191] ==> ignore
+    arg [cmTryCompileExec3207815714] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
@@ -248,7 +248,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
-    arg [CMakeFiles/cmTryCompileExec3429999191.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3207815714.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -278,90 +278,90 @@ Parsed CXX implicit link information from above output:
 Determining if the function clock_gettime exists in the rt passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2389575647/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2389575647.dir/build.make CMakeFiles/cmTryCompileExec2389575647.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec909579903/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec909579903.dir/build.make CMakeFiles/cmTryCompileExec909579903.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2389575647.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2389575647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2389575647
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2389575647.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2389575647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2389575647  -L/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/time.h -rdynamic -lrt -Wl,-rpath,/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/time.h 
+Building C object CMakeFiles/cmTryCompileExec909579903.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec909579903.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec909579903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec909579903.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec909579903.dir/CheckFunctionExists.c.o  -o cmTryCompileExec909579903  -L/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/time.h -rdynamic -lrt -Wl,-rpath,/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/time.h 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1062375098/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1062375098.dir/build.make CMakeFiles/cmTryCompileExec1062375098.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2683170443/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2683170443.dir/build.make CMakeFiles/cmTryCompileExec2683170443.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1062375098.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1062375098.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec1062375098
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1062375098.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec1062375098.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1062375098 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2683170443.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2683170443.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2683170443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2683170443.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2683170443.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2683170443 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3231361158/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3231361158.dir/build.make CMakeFiles/cmTryCompileExec3231361158.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2055921559/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2055921559.dir/build.make CMakeFiles/cmTryCompileExec2055921559.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3231361158.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3231361158.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec3231361158
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3231361158.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3231361158.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3231361158 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2055921559.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2055921559.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2055921559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2055921559.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2055921559.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2055921559 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec64878733/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec64878733.dir/build.make CMakeFiles/cmTryCompileExec64878733.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec19955242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec19955242.dir/build.make CMakeFiles/cmTryCompileExec19955242.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec64878733.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec64878733.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTryCompileExec64878733
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec64878733.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec64878733.dir/CheckIncludeFile.c.o  -o cmTryCompileExec64878733 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec19955242.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec19955242.dir/CheckIncludeFile.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec19955242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19955242.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec19955242.dir/CheckIncludeFile.c.o  -o cmTryCompileExec19955242 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of unsigned short passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec192443257/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec192443257.dir/build.make CMakeFiles/cmTryCompileExec192443257.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3681477287/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3681477287.dir/build.make CMakeFiles/cmTryCompileExec3681477287.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec192443257.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec192443257.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTryCompileExec192443257
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec192443257.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec192443257.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec192443257 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3681477287.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3681477287.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec3681477287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3681477287.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3681477287.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec3681477287 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeded with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1397997869/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1397997869.dir/build.make CMakeFiles/cmTryCompileExec1397997869.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1092181182/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1092181182.dir/build.make CMakeFiles/cmTryCompileExec1092181182.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1397997869.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec1397997869.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1397997869
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1397997869.dir/link.txt --verbose=1
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTryCompileExec1397997869.dir/src.cxx.o  -o cmTryCompileExec1397997869 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1092181182.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec1092181182.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1092181182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1092181182.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_VISIBILITY    CMakeFiles/cmTryCompileExec1092181182.dir/src.cxx.o  -o cmTryCompileExec1092181182 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -369,15 +369,15 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeded with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3362459720/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3362459720.dir/build.make CMakeFiles/cmTryCompileExec3362459720.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec257105488/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec257105488.dir/build.make CMakeFiles/cmTryCompileExec257105488.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3362459720.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec3362459720.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3362459720
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3362459720.dir/link.txt --verbose=1
-/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTryCompileExec3362459720.dir/src.cxx.o  -o cmTryCompileExec3362459720 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec257105488.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec257105488.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec257105488
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec257105488.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY    CMakeFiles/cmTryCompileExec257105488.dir/src.cxx.o  -o cmTryCompileExec257105488 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -385,12 +385,12 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeded with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1677912637/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1677912637.dir/build.make CMakeFiles/cmTryCompileExec1677912637.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec103553997/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec103553997.dir/build.make CMakeFiles/cmTryCompileExec103553997.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1677912637.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTryCompileExec1677912637.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec103553997.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTryCompileExec103553997.dir/src.cxx.o -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx
 /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
 /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: ‘int somefunc()’ is deprecated (declared at /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx:1) [-Wdeprecated-declarations]
      int main() { return somefunc();}
@@ -398,9 +398,9 @@ Building CXX object CMakeFiles/cmTryCompileExec1677912637.dir/src.cxx.o
 /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated (declared at /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/src.cxx:1) [-Wdeprecated-declarations]
      int main() { return somefunc();}
                                   ^
-Linking CXX executable cmTryCompileExec1677912637
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1677912637.dir/link.txt --verbose=1
-/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTryCompileExec1677912637.dir/src.cxx.o  -o cmTryCompileExec1677912637 -rdynamic 
+Linking CXX executable cmTryCompileExec103553997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec103553997.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_HAS_DEPRECATED_ATTR    CMakeFiles/cmTryCompileExec103553997.dir/src.cxx.o  -o cmTryCompileExec103553997 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 Source file was:

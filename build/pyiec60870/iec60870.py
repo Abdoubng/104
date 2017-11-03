@@ -69,13 +69,6 @@ except AttributeError:
     _newclass = 0
 
 
-try:
-    import weakref
-    weakref_proxy = weakref.proxy
-except:
-    weakref_proxy = lambda x: x
-
-
 IEC_60870_5_104_DEFAULT_PORT = _iec60870.IEC_60870_5_104_DEFAULT_PORT
 IEC_60870_5_104_DEFAULT_TLS_PORT = _iec60870.IEC_60870_5_104_DEFAULT_TLS_PORT
 LIB60870_VERSION_MAJOR = _iec60870.LIB60870_VERSION_MAJOR
@@ -2078,19 +2071,11 @@ class Callback(_object):
     __repr__ = _swig_repr
     __swig_destroy__ = _iec60870.delete_Callback
     __del__ = lambda self : None;
-    def run(self): return _iec60870.Callback_run(self)
+    def run(self, *args): return _iec60870.Callback_run(self, *args)
     def __init__(self): 
-        if self.__class__ == Callback:
-            _self = None
-        else:
-            _self = self
-        this = _iec60870.new_Callback(_self, )
+        this = _iec60870.new_Callback()
         try: self.this.append(this)
         except: self.this = this
-    def __disown__(self):
-        self.this.disown()
-        _iec60870.disown_Callback(self)
-        return weakref_proxy(self)
 Callback_swigregister = _iec60870.Callback_swigregister
 Callback_swigregister(Callback)
 

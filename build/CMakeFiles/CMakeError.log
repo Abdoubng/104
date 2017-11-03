@@ -1,15 +1,15 @@
 Determining if the system is big endian passed with the following output:
 Change Dir: /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2002743214/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2002743214.dir/build.make CMakeFiles/cmTryCompileExec2002743214.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1198587637/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1198587637.dir/build.make CMakeFiles/cmTryCompileExec1198587637.dir/build
 make[1]: Entering directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2002743214.dir/TestEndianess.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2002743214.dir/TestEndianess.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTryCompileExec2002743214
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2002743214.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2002743214.dir/TestEndianess.c.o  -o cmTryCompileExec2002743214 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1198587637.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1198587637.dir/TestEndianess.c.o   -c /media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec1198587637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1198587637.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1198587637.dir/TestEndianess.c.o  -o cmTryCompileExec1198587637 -rdynamic 
 make[1]: Leaving directory '/media/benghaa/data/protocols/iec60870/lib60870/poc/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:

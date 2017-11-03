@@ -10,7 +10,6 @@ pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: ../src/inc/api/in
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: ../src/inc/api/t104_connection.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: ../src/tls/tls_api.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: pyiec60870/iec60870PYTHON_wrap.cxx
-pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: pyiec60870/iec60870PYTHON_wrap.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/Python.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/abstract.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/boolobject.h
@@ -62,7 +61,6 @@ pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/pyth
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/pystrcmp.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/pystrtod.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/pythonrun.h
-pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/pythread.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/rangeobject.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/setobject.h
 pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o: /usr/include/python2.7/sliceobject.h

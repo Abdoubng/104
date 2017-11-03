@@ -11,7 +11,6 @@ pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o
  ../src/inc/api/t104_connection.h
  ../src/tls/tls_api.h
  /media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/iec60870PYTHON_wrap.cxx
- /media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/iec60870PYTHON_wrap.h
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h
  /usr/include/python2.7/boolobject.h
@@ -63,7 +62,6 @@ pyiec60870/CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o
  /usr/include/python2.7/pystrcmp.h
  /usr/include/python2.7/pystrtod.h
  /usr/include/python2.7/pythonrun.h
- /usr/include/python2.7/pythread.h
  /usr/include/python2.7/rangeobject.h
  /usr/include/python2.7/setobject.h
  /usr/include/python2.7/sliceobject.h

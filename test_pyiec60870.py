@@ -6,6 +6,7 @@ import threading
 import traceback
 import signal
 
+
 def signal_handler(signal, frame):
 	global running
 	running =0
@@ -14,20 +15,30 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 running = 1
-class Slave():
+
+class pCallback(iec60870.Callback):
+    def __init__(self):
+        iec60870.Callback.__init__(self)
+    def clockSyncHandler(self):
+        print "callback described in Python and passed through C++ to C"
+class Slave(iec60870.Callback):
 	def __init__(self):
-		self._slave=iec60870.slaveCreate(None, 0, 2)
-		#connectionparam=iec60870.Slave_getConnectionParameters(self._slave)
+		self._slave=iec60870.T104Slave_create(None, 100, 102)
+                #connectionparam=iec60870.Slave_getConnectionParameters(self._slave)
 		slave = self._slave
-		iec60870.interro(slave)
-		iec60870.clock(slave)
+		#iec60870.interro(slave)
+		#iec60870.clock(slave)
 		iec60870.Slave_start(self._slave)
 		print slave
 		time.sleep(1)
 		#print (type(self._slave))
-                iec60870.Slave_setClockSyncHandler(self, clocksync, Null)
-        def clocksync(slef):
-            print "stantan"
+                 
+        def run(self, params, connexion, asdu, newTime):
+            print newTime
+            print "run callback described in Python and passed through C++ to C"
+        def clocksync(self):
+           iec60870.Slave_setClockSyncHandler(self._slave, self.run(), None)   
+           print "stantan"
         def start(self):
 		global running
 		while running:
@@ -48,7 +59,11 @@ class Slave():
 		print 2	
 
 def main():
-	Sslave=Slave()
+#        cal=pCallback()
+        Sslave=Slave()
+
+       
+        Sslave.clocksync()
 	Sslave.start()
 if __name__== "__main__":
     main()

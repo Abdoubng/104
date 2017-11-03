@@ -9,6 +9,10 @@
 ../pyiec60870/callbacks.h
 iostream
 ../pyiec60870/iostream
+../src/inc/api/iec60870_slave.h
+../src/inc/api/iec60870_slave.h
+../src/inc/api/iec60870_common.h
+../src/inc/api/iec60870_common.h
 
 ../src/hal/inc/hal_socket.h
 stdint.h
@@ -65,20 +69,6 @@ Python.h
 -
 string.h
 -
-string
--
-iostream
--
-exception
--
-vector
--
-map
--
-map
--
-pythread.h
-/media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/pythread.h
 stdexcept
 -
 stdint.h
@@ -100,14 +90,6 @@ float.h
 math.h
 -
 ieeefp.h
--
-iec60870PYTHON_wrap.h
-/media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/iec60870PYTHON_wrap.h
-
-/media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/iec60870PYTHON_wrap.h
-map
--
-string
 -
 
 /usr/include/python2.7/Python.h
@@ -469,8 +451,6 @@ wctype.h
 /usr/include/python2.7/pystrtod.h
 
 /usr/include/python2.7/pythonrun.h
-
-/usr/include/python2.7/pythread.h
 
 /usr/include/python2.7/rangeobject.h
 

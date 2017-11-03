@@ -19,9 +19,9 @@ running = 1
 class pCallback(iec60870.Callback):
     def __init__(self):
         iec60870.Callback.__init__(self)
-    def run(self):
+    def clockSyncHandler(self):
         print "callback described in Python and passed through C++ to C"
-class Slave():
+class Slave(iec60870.Callback):
 	def __init__(self):
 		self._slave=iec60870.T104Slave_create(None, 100, 102)
                 #connectionparam=iec60870.Slave_getConnectionParameters(self._slave)
@@ -32,9 +32,12 @@ class Slave():
 		print slave
 		time.sleep(1)
 		#print (type(self._slave))
-              
+                 
+        def run(self):
+            print newTime
+            print "run callback described in Python and passed through C++ to C"
         def clocksync(self):
-           iec60870.Slave_setClockSyncHandler(self._slave, pCallback.run, None)   
+           iec60870.Slave_setClockSyncHandler(self._slave, self.run(), None)   
            print "stantan"
         def start(self):
 		global running
@@ -56,9 +59,10 @@ class Slave():
 		print 2	
 
 def main():
-	Sslave=Slave()
+#        cal=pCallback()
+        Sslave=Slave()
 
-        callback=pCallback()
+       
         Sslave.clocksync()
 	Sslave.start()
 if __name__== "__main__":
