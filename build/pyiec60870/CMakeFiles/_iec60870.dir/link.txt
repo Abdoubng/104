@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,_iec60870.so -o _iec60870.so CMakeFiles/_iec60870.dir/iec60870PYTHON_wrap.cxx.o -lpython2.7 ../src/libiec60870.so.0.9.7 -Wl,-rpath,/media/benghaa/data/protocols/iec60870/lib60870/poc/build/src: 

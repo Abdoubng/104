@@ -1,0 +1,7 @@
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/pyiec60870/CMakeFiles/_iec60870.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/src/CMakeFiles/iec60870.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/src/CMakeFiles/iec60870-shared.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/examples/multi_client_server/CMakeFiles/multi_client_server.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/examples/simple_client/CMakeFiles/simple_client.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/examples/simple_server/CMakeFiles/simple_server.dir
+/media/benghaa/data/protocols/iec60870/lib60870/poc/build/tests/CMakeFiles/tests.dir
